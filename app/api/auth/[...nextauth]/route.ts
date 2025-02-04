@@ -19,7 +19,7 @@ declare module 'next-auth' {
 export const authOptions: NextAuthOptions = {
 	providers: [
 		CredentialsProvider({
-			id: 'telegram-login',
+			id: 'TmaAuthBot',
 			name: 'Telegram Login',
 			credentials: {},
 			async authorize(credentials, req) {
